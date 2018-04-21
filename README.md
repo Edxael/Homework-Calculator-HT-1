@@ -27,4 +27,3 @@ The first part of the assignment we'll be exploring promises, specifically in th
 ### Creating the Calculator
 
 The second part of the assignment we'll be creating a calculator.  Follow the instructions in the `src/calculator.js` file.
-

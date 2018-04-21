@@ -8,7 +8,7 @@
  * @returns {Promise<Number>}
  */
 const add = async (...values) => {
-
+    return values.reduce((pv, cv) => { return pv + cv }, 0)
 }
 
 /**
@@ -21,12 +21,13 @@ const add = async (...values) => {
  * @returns {Promise<Number>}
  */
 const subtract = async (...values) => {
-
+    return values.reduce( (pv, cv) => { return pv - cv }, 0 )
 }
 
 /**
  * Export out the add, and subtract
  */
 export default {
-
+    add, subtract
 }
+
